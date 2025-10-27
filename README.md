@@ -13,7 +13,7 @@
 | Framework | Express.js |
 | Database | MongoDB / Mongoose |
 | Authentication | JWT (JSON Web Tokens) |
-| Caching | NodeCache / Redis (optional) |
+| Caching | NodeCache |
 | Environment | dotenv |
 | Payment Gateway | Cashfree |
 | AI Integration | OpenAI API |
@@ -59,8 +59,6 @@ OPENAI_API_KEY=your_openai_api_key
 # Others
 NODE_ENV=development
 ```
-
-⚠️ Make sure `.env` is in `.gitignore` before committing anything.
 
 ---
 
@@ -157,3 +155,4 @@ Ensure you set all environment variables in your host’s dashboard.
 **Developer:** Nandalal Majhi  
 📩 [developer.nandalal@gmail.com](mailto:developer.nandalal@gmail.com)  
 🌐 [https://mnandalal.in](https://mnandalal.in)
+
